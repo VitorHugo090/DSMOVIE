@@ -1,10 +1,21 @@
 import React from 'react';
-
+import {ReactComponent as GithubIcon} from 'Vector.svg'
 
 
 function App() {
   return (
-   <h1>Pagina principal</h1>
+   <header>
+    <nav className="container">
+    <h1>DsMovie</h1>
+    
+    <a className="navbar-brand" href="#">
+      <GithubIcon />
+      <h2>/VitorHugo</h2>
+    </a>
+    </nav>
+   </header>
+
+
   );
 }
 
