@@ -11,31 +11,28 @@ function Listing() {
             <Pagination />
             <div className="container">
             <div className="row">
-                <div className="cow">
+                <div className="col-sm-6 col-lg-4 col-xl-3">
                     <CartaoFilme />
                 </div>
-                <div className="cow">
+                <div className="col-sm-6 col-lg-4 col-xl-3">
                     <CartaoFilme />
                 </div>
-                <div className="cow">
+                <div className="col-sm-6 col-lg-4 col-xl-3">
                     <CartaoFilme />
                 </div>
-                <div className="cow">
+                <div className="col-sm-6 col-lg-4 col-xl-3">
                     <CartaoFilme />
                 </div>
-                <div className="cow">
+                <div className="col-sm-6 col-lg-4 col-xl-3">
                     <CartaoFilme />
                 </div>
-                <div className="cow">
+                <div className="col-sm-6 col-lg-4 col-xl-3">
                     <CartaoFilme />
                 </div>
-                <div className="cow">
+                <div className="col-sm-6 col-lg-4 col-xl-3">
                     <CartaoFilme />
                 </div>
-                <div className="cow">
-                    <CartaoFilme />
-                </div>
-                <div className="cow">
+                <div className="col-sm-6 col-lg-4 col-xl-3">
                     <CartaoFilme />
                 </div>
             </div>

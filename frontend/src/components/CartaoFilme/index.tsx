@@ -14,14 +14,15 @@ function CartaoFilme() {
 
     return (
 
-<div>
+    <div className="dsmovie-form-container">
     <img className="dsmovie-movie-card-image" src={movie.image} alt={movie.title} />
     <div className="dsmovie-card-bottom-container">
         <h3>{movie.title}</h3>
         <NotaFilme />
         <div className="btn btn-primary dsmovie-btn">Avaliar</div>
     </div>
-</div>
+    </div>
+
 );
 }
 
