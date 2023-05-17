@@ -1,9 +1,46 @@
+import Pagination from "components/Pagination";
+
+import CartaoFilme from "components/CartaoFilme";
+
 function Listing() {
-   
-    
-   
+
+
+
     return (
-       <h1>Pagina de listagem</h1>
+        <>
+            <Pagination />
+            <div className="container">
+            <div className="row">
+                <div className="cow">
+                    <CartaoFilme />
+                </div>
+                <div className="cow">
+                    <CartaoFilme />
+                </div>
+                <div className="cow">
+                    <CartaoFilme />
+                </div>
+                <div className="cow">
+                    <CartaoFilme />
+                </div>
+                <div className="cow">
+                    <CartaoFilme />
+                </div>
+                <div className="cow">
+                    <CartaoFilme />
+                </div>
+                <div className="cow">
+                    <CartaoFilme />
+                </div>
+                <div className="cow">
+                    <CartaoFilme />
+                </div>
+                <div className="cow">
+                    <CartaoFilme />
+                </div>
+            </div>
+            </div>
+        </>
     );
 }
 

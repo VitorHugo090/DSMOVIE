@@ -8,7 +8,7 @@ import React from 'react';
 import {ReactComponent as GithubIcon} from 'Vector.svg';
 import Listing from 'pages/Listing';
 import Form from 'pages/Form';
-import Navbar from 'components';
+import Navbar from 'components/Navbar';
 
 function App() {
 
