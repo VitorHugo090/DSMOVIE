@@ -1,5 +1,6 @@
 
 import NotaFilme from "components/NotaFilme";
+import { Link } from "react-router-dom";
 
 
 function CartaoFilme() {
@@ -19,7 +20,9 @@ function CartaoFilme() {
     <div className="dsmovie-card-bottom-container">
         <h3>{movie.title}</h3>
         <NotaFilme />
+        <Link to={`/form/${movie.id}`}>
         <div className="btn btn-primary dsmovie-btn">Avaliar</div>
+        </Link>
     </div>
     </div>
 
